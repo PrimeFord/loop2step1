@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+.box {
+    background-color: #de8a89;
+    height: 100%;
+    width: 90%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+.top {
+    margin: 5rem 5rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+.active {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+}
+.inactive {
+    font-size: 48px;
+    font-weight: 800;
+    color: white;
+    opacity: 0.4;
+    cursor: pointer;
+}
+.inactive:hover {
+    opacity: 0.8;
+}
+.info {
+    color: white;
+    width: 40rem;
+    margin-top: 1rem;
+    margin-left: 15rem;
+}
+.shape {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: max-content;
+    height: 15rem;
+    /* background-color: aqua; */
+    margin: 3rem auto 0;
+}
+.arrow {
+    height: 5rem;
+    width: 5rem;
+    background-color: #ecb9b8;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tri1 {
+    height: 1px;
+    width: 1px;
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid gray;
+    border-bottom: 0.5rem solid transparent;
+    border-left: 0.5rem solid transparent;
+}
+.tri2 {
+    height: 1px;
+    width: 1px;
+    border-top: 0.5rem solid transparent;
+    border-left: 0.5rem solid gray;
+    border-bottom: 0.5rem solid transparent;
+    border-right: 0.5rem solid transparent;
+}
+.sq1 {
+    height: 15rem;
+    width: 15rem;
+    background-color: #3e3c3d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.start {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 13rem;
+    margin-top: 2.5rem;
+    cursor: pointer;
+}
+.sq2 {
+    height: 15rem;
+    width: 15rem;
+    background-color: #353334;
+}
+.sq3 {
+    height: 15rem;
+    width: 15rem;
+    background-color: #201e1f;
+}
+.sq1, .sq2, .sq3 {
+    text-align: center;
+}
+.condition {
+    color: #ce8780;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+.value {
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 2rem; 
+}
